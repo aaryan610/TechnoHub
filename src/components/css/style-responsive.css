@@ -1,0 +1,34 @@
+@media screen and (max-width: 792px) {
+	.heading h2 {
+		font-size: 30px;
+		margin-top: 55px;
+  	}
+	.heading h3 {
+  		font-size: 20px;
+  	}	
+	h5 {
+  		font-size: 17px;
+  	}
+	#terms ul li {
+  		font-size: 13.5px;
+  	}
+	input[type='radio']:after {
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+	}
+	input[type='radio']:checked:after {
+	    width: 20px;
+	    height: 20px;
+	    border-radius: 20px;
+	}
+	#steps div {
+		font-size: 13px;
+	}
+	.logo {
+		height: 100px;
+		width: 140px;
+		top: 0;
+		left: 0;
+	}
+}
