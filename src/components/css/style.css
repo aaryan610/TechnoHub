@@ -1,15 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
-/*Green-4dbb39*/
+
 body {
   background-color: #adefd1ff !important;
   color: #00203fff;
 }
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 200px;
-  width: 280px;
+.logosCont {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+.logoLeft {
+  height: 150px;
+  width: 150px;
+}
+.logoRight {
+  height: 92px;
+  width: 170px;
 }
 
 /*----To Top Button----*/
@@ -39,12 +45,12 @@ body {
 /*----Heading----*/
 
 .heading {
+  display: inline;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
-  margin-top: 35px;
   color: #00203fff;
   background-color: #adefd1ff;
-  padding: 10px;
+  overflow: auto;
 }
 .heading h2 {
   font-size: 50px;
