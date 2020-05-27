@@ -1,5 +1,4 @@
 import React from "react";
-import technoLogo from "./images/logo.png";
 
 const spanStyling = {
   textDecoration: "underline",
